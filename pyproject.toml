@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "coursera-deeplearning-ai-natural-language-processing-specialization"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "coursera_deeplearning"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+nltk = "^3.8.1"
+matplotlib = "^3.7.2"
+ipykernel = "^6.25.1"
+pandas = "^2.0.3"
+numpy = "^1.25.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
